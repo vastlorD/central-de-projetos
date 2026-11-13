@@ -4,15 +4,18 @@ Este plano é um guia de trabalho, não uma promessa de datas. A prioridade é a
 
 ## Fase 1 — Organização
 - [x] Reunir projetos e histórico disponível.
-- [x] Conferir os arquivos públicos de Viking e Boleto.
+- [x] Conferir arquivos de Viking e Boleto.
 - [x] Criar a central de documentação.
-- [ ] Revisar detalhes com os arquivos locais de cada projeto.
+- [x] Padronizar os READMEs principais de Viking e Boleto.
+- [ ] Revisar os arquivos locais dos projetos ainda não publicados.
 
 ## Fase 2 — Qualidade
-- [ ] Reexecutar testes de Viking, Integrity Guard e analisador de logs.
+- [x] Reproduzir testes das calculadoras e do analisador de logs (13/13 aprovados em cópias locais dos arquivos consultados).
+- [ ] Reexecutar a suíte completa diretamente em um clone do Viking.
+- [ ] Reexecutar testes do Integrity Guard.
 - [ ] Conferir dependências, licenças e instruções de instalação.
-- [ ] Testar Ponto Facial em ambiente autorizado, com dados de teste e atenção à privacidade.
-- [ ] Converter Boleto em exemplo executável com dados fictícios, sem disparos reais.
+- [ ] Validar Ponto Facial em ambiente autorizado, com dados de teste e atenção à privacidade.
+- [ ] Converter Boleto em exemplo executável com dados fictícios, sem envios reais.
 
 ## Fase 3 — Novos sistemas
 - [ ] Recuperar e versionar o sistema de agendamento.
@@ -20,8 +23,9 @@ Este plano é um guia de trabalho, não uma promessa de datas. A prioridade é a
 - [ ] Recuperar escopo e código do OTP antes de definir entregas.
 
 ## Fase 4 — Apresentação
-- [ ] Melhorar demonstrações, capturas e documentação.
-- [ ] Registrar mudanças e resultados de testes.
+- [x] Publicar uma apresentação pessoal no perfil do GitHub.
+- [x] Melhorar a apresentação dos repositórios Viking e Boleto.
+- [ ] Acrescentar demonstrações e capturas de tela quando houver versões verificadas.
 - [ ] Avaliar implantação somente depois de validar segurança e privacidade.
 
-Cada etapa deverá ter evidências claras: código, testes, documentação ou decisão registrada.
+Os resultados e as limitações dos testes estão registrados em [Viking: revisão técnica](https://github.com/vastlorD/viking/blob/main/docs/REVISAO-2026-11-13.md).
